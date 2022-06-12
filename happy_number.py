@@ -6,8 +6,8 @@ def pd(n):
         n=n//10
     return r
 n=int(input())
-while len (str(n))>1:
-    k=pd (n)
+while len(str(n))>1:
+    k=pd(n)
     n=k
 if k==1 or k==7:
     print(True)
